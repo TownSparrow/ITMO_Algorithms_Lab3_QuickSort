@@ -1,0 +1,15 @@
+﻿  main.cpp
+D:\Study\ITMO\1\Анализ и разработка алгоритмов\QuickSort\QuickSort\QuickSort.h(114,19): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+      D:\Study\ITMO\1\Анализ и разработка алгоритмов\QuickSort\QuickSort\QuickSort.h(114,19):
+      the template instantiation context (the oldest one first) is
+          D:\Study\ITMO\1\Анализ и разработка алгоритмов\QuickSort\QuickSort\main.cpp(57,3):
+          see reference to function template instantiation 'void QuickSort<_Ty,std::less<_Ty>>(T *,T *,Compare)' being compiled
+          with
+          [
+              _Ty=int,
+              T=int,
+              Compare=std::less<int>
+          ]
+  
+  QuickSort.vcxproj -> D:\Study\ITMO\1\Анализ и разработка алгоритмов\QuickSort\x64\Debug\QuickSort.exe
