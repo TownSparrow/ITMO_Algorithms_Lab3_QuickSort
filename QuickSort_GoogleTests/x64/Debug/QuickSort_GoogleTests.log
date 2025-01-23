@@ -1,0 +1,28 @@
+﻿  QuickSort_GoogleTests.cpp
+D:\Study\ITMO\1\Анализ и разработка алгоритмов\QuickSort\QuickSort\QuickSort.h(114,19): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file '/QuickSort_GoogleTests.cpp')
+      D:\Study\ITMO\1\Анализ и разработка алгоритмов\QuickSort\QuickSort\QuickSort.h(114,19):
+      the template instantiation context (the oldest one first) is
+          D:\Study\ITMO\1\Анализ и разработка алгоритмов\QuickSort\QuickSort_GoogleTests\QuickSort_GoogleTests.cpp(20,3):
+          see reference to function template instantiation 'void QuickSort<_Ty,std::less<_Ty>>(T *,T *,Compare)' being compiled
+          with
+          [
+              _Ty=int,
+              T=int,
+              Compare=std::less<int>
+          ]
+  
+D:\Study\ITMO\1\Анализ и разработка алгоритмов\QuickSort\QuickSort\QuickSort.h(170,19): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file '/QuickSort_GoogleTests.cpp')
+      D:\Study\ITMO\1\Анализ и разработка алгоритмов\QuickSort\QuickSort\QuickSort.h(170,19):
+      the template instantiation context (the oldest one first) is
+          D:\Study\ITMO\1\Анализ и разработка алгоритмов\QuickSort\QuickSort_GoogleTests\QuickSort_GoogleTests.cpp(28,3):
+          see reference to function template instantiation 'void QuickSortModified<_Ty,std::less<_Ty>>(T *,T *,Compare)' being compiled
+          with
+          [
+              _Ty=int,
+              T=int,
+              Compare=std::less<int>
+          ]
+  
+  QuickSort_GoogleTests.vcxproj -> D:\Study\ITMO\1\Анализ и разработка алгоритмов\QuickSort\x64\Debug\QuickSort_GoogleTests.exe
